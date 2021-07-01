@@ -6,7 +6,7 @@ If you have any issues with this guide, tell me in the Discord (Flicky#0654) and
 the issue as fast as possible. This is my work on debloating Adobe packages and no other sources were used 
 for the debloating.Noice!
 
-Credit to:canonez and Phlegm they helped a ton with the creation of this guide!
+Credit to : canonez and Phlegm they helped a ton with the creation of this guide!
 
 
 Known issues: The Script not working probably try running it as Administrator. If you still have the same issue
