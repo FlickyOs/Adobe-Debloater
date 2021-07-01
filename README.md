@@ -1,6 +1,6 @@
 # Adobe-Debloater
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-welcome to the Flicky Adobe Debloat Guide! You may be able to 
+Welcome to the Flicky Adobe Debloat Guide! You may be able to 
 reduce RAM usage up to 20% and CPU usage up to 15% While using Adobe Programs And Free alot of space.
 If you have any issues with this guide, tell me in the Discord (Flicky#0654) and I will solve 
 the issue as fast as possible. This is my work on debloating Adobe packages and no other sources were used 
