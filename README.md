@@ -1,20 +1,24 @@
-# Adobe-Debloater
+<p align="center">
+    <strong>Flicky's Adobe Debloater</strong></br>
+</p>
+<p align="center">
+    <a href="#overview">Overview</a> •
+    <a href="#credits">Credits</a>
+</p>
+<p align="center">
+    <a href="#"><img src="https://user-images.githubusercontent.com/38664452/124229979-095ddb80-dad4-11eb-9c63-61c46af21855.png" alt="screenshot" width="650"></a>
+</p>
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Welcome to the Flicky Adobe Debloat Guide! You may be able to 
-reduce RAM usage up to 20% and CPU usage up to 15% While using Adobe Programs And Free alot of space.
-If you have any issues with this guide, tell me in the Discord (Flicky#0654) and I will solve 
-the issue as fast as possible. This is my work on debloating Adobe packages and no other sources were used 
-for the debloating.Noice!
+### Overview
+Welcome to Flicky's Adobe Debloater!   </br>
+You may be able to reduce RAM usage up to 20% and CPU usage up to 15% while using Adobe programs, as well as free alot of space.   </br>
+If you have any issues, contact me via Discord (**Flicky#0654**)   </br>
+This is my work on debloating Adobe packages and no other sources were used for the debloating.
 
-Credit to : canonez and Phlegm they helped a ton with the creation of this guide!
+Support me by following me on [Twitter](https://twitter.com/Flicky_VFX)
 
-
-Known issues: The Script not working probably try running it as Administrator. If you still have the same issue
-
-Drag the script on the desktop it should be fixed. Enjoy!
-
-
-If you want to support me:
-
-Twitter:https://twitter.com/Flicky_VFX
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+### Credits
+* canonez
+* Phlegm
