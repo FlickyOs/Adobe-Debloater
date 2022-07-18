@@ -147,5 +147,5 @@ echo.
 echo [30m[2] [31mExit
 echo.
 choice /c:12 /n > NUL 2>&1
-if errorlevel 2 cls && goto exit
+if errorlevel 2 cls && Exit /b 0
 if errorlevel 1 cls && goto main
