@@ -5,7 +5,7 @@ mode con: cols=92 lines=21
 setlocal enabledelayedexpansion
 
 :main
-cls && echo [30mThis utility allows you to choose what you want to Disable / Kill.
+cls && echo [30mThis utility allows you to choose what you want to Disable/Kill.
 echo.
 echo [30m[1] [31mStop [30mAdobe Processess/Services[30m.
 echo.
@@ -27,19 +27,23 @@ sc stop AGMService > NUL 2>&1
 sc stop AdobeARMservice > NUL 2>&1
 powershell "Get-Process * | Where-Object {$_.CompanyName -match "Adobe" -or $_.Path -match "Adobe"} | Stop-Process -Force" > NUL 2>&1
 :: I dont know why i added them but i just did (the powershell command should kill them)
-taskkill /IM "AdobeUpdateService.exe" /F > NUL 2>&1
-taskkill /IM "Adobe Desktop Service.exe" /F > NUL 2>&1
-taskkill /IM "AdobeExtensionsService.exe" /F > NUL 2>&1
-taskkill /IM "Adobe CEF Helper.exe" /F > NUL 2>&1
-taskkill /IM "AdobeIPCBroker.exe" /F > NUL 2>&1
-taskkill /IM "CoreSync.exe" /F > NUL 2>&1
-taskkill /IM "acrotray.exe" /F > NUL 2>&1
-taskkill /IM "Creative Cloud Helper.exe" /F > NUL 2>&1
-taskkill /IM "AdobeNotificationClient.exe" /F > NUL 2>&1
-taskkill /IM "AcrobatNotificationClient.exe" /F > NUL 2>&1
-taskkill /IM "AdobeARM.exe" /F > NUL 2>&1
-taskkill /IM "CCXProcess.exe" /F > NUL 2>&1
-taskkill /IM "CCLibrary" /F > NUL 2>&1
+for %%a in (
+  AdobeUpdateService.exe
+  Adobe Desktop Service.exe
+  AdobeExtensionsService.exe
+  Adobe CEF Helper.exe
+  AdobeIPCBroker.exe
+  CoreSync.exe
+  acrotray.exe
+  Creative Cloud Helper.exe
+  AdobeNotificationClient.exe
+  AcrobatNotificationClient.exe
+  AdobeARM.exe
+  CCXProcess.exe
+  CCLibrary.exe
+) do (
+    taskkill /F /IM %%a.exe > NUL 2>&1
+)
 cls && echo Adobe Processes Killed! && TIMEOUT /T 3 /NOBREAK > NUL 2>&1 && goto main
 
 :AGSService
